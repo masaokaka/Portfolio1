@@ -1,0 +1,66 @@
+/*全体*/
+body{
+    background-image:url("background-top.jpg");
+    background-size: cover;
+}
+#wrapper{
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    background:rgba(255,255,255,.4);
+}
+
+/*ヘッダー*/
+#header{
+    display: flex;
+    background-color: white;
+    width:100%;
+    margin-bottom:10px;
+}
+#logo{
+    padding:20px 0px;
+    margin-left:30px;
+}
+#logo img{
+    width: 160px;
+    height: 80px;
+}
+/*メインコンテンツ*/
+#main{
+    padding:0px 30px;
+    margin:0px 30px 0px 30px;
+    font-family: arial black;
+    
+}
+.form{
+    text-align:center;
+    margin-top:50px;
+}
+.text_box{
+    border:none;
+    border-bottom:solid 1px;
+    background-color: transparent;
+}
+.link-font{
+    text-decoration: none;
+    color: black;
+}
+.link-font:hover{
+    text-decoration: none;
+    color: forestgreen;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+ul li{
+    list-style:none;
+}
+/*フッター*/
+#footer{
+    text-align: center;
+    font-family: arial black;
+    background-color: white;
+    margin-top:auto;
+}
